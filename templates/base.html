@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>PharmaXplorer</h1>
+        <div style="position: fixed; top: 10px; right: 100px;">
+            <p>Current time: <span id="current-time"></span></p>
+        </div>
+       
+        <div>
+        {% block content %}{% endblock %}
+    </div>
+    <script>
+        function updateTime() {
+            var currentTime = new Date();
+            var hours = currentTime.getHours();
+            var minutes = currentTime.getMinutes();
+            var seconds = currentTime.getSeconds();
+            var meridiem = (hours < 12) ? "AM" : "PM";
+            hours = (hours > 12) ? hours - 12 : hours;
+            hours = (hours === 0) ? 12 : hours;
+            minutes = (minutes < 10 ? "0" : "") + minutes;
+            seconds = (seconds < 10 ? "0" : "") + seconds;
+            var timeString = hours + ":" + minutes + ":" + seconds + " " + meridiem;
+            document.getElementById('current-time').innerHTML = timeString;
+        }
+        setInterval(updateTime, 1000); // Update the time every second
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %}PharmaXplorer{% endblock %}
+
+{% block content %}
+    <p>Welcome to PharmaXplorer, your one-stop shop for finding pharmacies in Limbe, Cameroon, the Town of Friendship.</p>
+    <a href="{{ url_for('display_pharmacies') }}">Browse pharmacies</a>
+{% endblock %}

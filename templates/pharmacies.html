@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Pharmacies</h1>
+    <div class="button-container">
+        {% for pharmacy in pharmacies %}
+            <form action="{{ url_for('pharmacy_details', pharmacy_id=loop.index) }}">
+                <button type="submit" class="pharmacy-button">{{ pharmacy.name }}</button>
+            </form>
+        {% endfor %}
+    </div>
+{% endblock %}
