@@ -2,17 +2,29 @@
 <html>
 <head>
     <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='../static/images/logo.png') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
 </head>
 <body>
-    <h1>PharmaXplorer</h1>
-        <div style="position: fixed; top: 10px; right: 100px;">
-            <p>Current Time: <span id="current-time"></span></p>
+    <header>
+        <div class="top-line"></div>
+        <div class="header-content">
+            <a href="{{ url_for('index') }}" class="logo-link">
+                <img src="{{ url_for('static', filename='../static/images/pharmacy.jpg') }}" alt="PharmaXplorer Logo" class="logo">
+                <h1>PharmaXplorer</h1>
+            </a>
+                <div style="position: fixed; top: 10px; right: 100px;">
+                    <p>Current Time: <span id="current-time"></span></p>
+                </div>
         </div>
-       
+    </header>
         <div>
         {% block content %}{% endblock %}
     </div>
+    <footer >
+    The footer text goes here
+    </footer>
     <script>
         function updateTime() {
             var currentTime = new Date();
