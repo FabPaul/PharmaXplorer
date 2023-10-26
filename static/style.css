@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     font-weight: 100;
-    background-image: url('../static/images/26800.jpg');
+    background-image: url('../static/images/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,7 +22,9 @@ li {
 }
 
 a {
-    color: blue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 .pharmacy-button {
     display: block;
@@ -30,4 +32,52 @@ a {
     height: 60px;
     font-size: 20px;
     margin: 10px;
+}
+
+ .container { 
+
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pharmacy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.pharmacy-item {
+    width: 250px;
+    text-align: left;
+    margin: 50px;
+}
+
+.pharmacy-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    flex-basis: 10%;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    margin-top: 100px;
+    
+}
+h1, h4 {
+    margin: 5px 0;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: black;
+    font-style: italic;
 }

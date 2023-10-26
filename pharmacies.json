@@ -2,6 +2,9 @@
     "pharmacies": [
         {
             "name": "Limbe Pharmacy",
+            "image_url": "../static/images/limbe.jpeg",
+            "description": "Limbe Pharmacy is a trusted community pharmacy that has been serving the people of Limbe for over 20 years. We provide a wide range of high-quality pharmaceutical products and personalized care to meet the health needs of our customers. Our friendly and knowledgeable staff are dedicated to ensuring your well-being and satisfaction.",
+            "on_call_days": ["Monday", "Thursday"],
             "contact": {
                 "phone": "698700758",
                 "address": "Mile One hill, Before RHL",
@@ -422,6 +425,9 @@
         },
         {
             "name": "Prime Pharmacy",
+            "image_url": "../static/images/prime.jpg",
+            "description": "Prime Pharmacy is a leading pharmaceutical provider known for its comprehensive range of high-quality medications and health products. With a focus on personalized customer care and expert advice, Prime Pharmacy is committed to promoting wellness and enhancing the health of our community. Our experienced team is dedicated to delivering exceptional service and tailored solutions for all your healthcare needs.",
+            "on_call_days": ["Tuesday", "Friday"],
             "contact": {
                 "phone": "672457889",
                 "address": "Church Street, Beside New Market Entrance",
@@ -816,6 +822,9 @@
         },
         {
             "name": "Fako Atlantic Pharmacy",
+            "image_url": "../static/images/fako.jpg",
+            "description": "Fako Atlantic Pharmacy is the pride of Limbe as far as healthcare is concerned, offering a diverse range of pharmaceutical products and services. Committed to excellence and customer satisfaction, we strive to provide accessible, affordable, and high-quality healthcare solutions to you, the people of Limbe. Our staff is dedicated to ensuring your well-being and offering personalized care for all your health-related needs.",
+            "on_call_days": ["Wednesday", "Saturday"],
             "contact": {
                 "phone": "679890963",
                 "address": "Beside Limbe Community Field",
@@ -1219,7 +1228,10 @@
             ]
         },
         {
-            "name": "Taff Pharmacy",
+            "name": "TAF Pharmacy",
+            "image_url": "../static/images/taf.jpg",
+            "description": "TAF Pharmacy is a reliable healthcare destination known for its extensive range of pharmaceutical products and dedicated services. Dedicated to providing personalized care and professional guidance, we aim to improve the health and well-being of our customers. With a focus on accessibility and affordability, TAF Pharmacy endeavors to meet the diverse healthcare needs of the people of Limbe and beyond.",
+            "on_call_days": ["Thursday", "Sunday"],
             "contact":{
                 "phone": "698833665",
                 "address": "Half Mile, Gardens Road",
@@ -1608,6 +1620,9 @@
         },
         {
             "name": "Rainbow Chemist",
+            "image_url": "../static/images/rainbow.jpg",
+            "description": "Rainbow Chemist is the go-to pharmacy dedicated to providing top-quality pharmaceutical services and products. With a strong focus on customer care and satisfaction, we aim to be a reliable partner in your journey to optimal health. Our experienced pharmacists are committed to offering comprehensive guidance and tailored solutions to meet your specific healthcare needs. At Rainbow Chemist, your well-being is our priority.",
+            "on_call_days": ["Monday", "Friday"],
             "contact": {
                 "phone": "620044454",
                 "address": "Half mile, Beside Easy Shop",
@@ -2018,6 +2033,9 @@
         },
         {
             "name": "Standard Pharmacy",
+            "image_url": "../static/images/standard.jpg",
+            "description": "Standard Pharmacy is a leading healthcare provider in Limbe, dedicated to offering a comprehensive range of pharmaceutical services and products. Committed to excellence and customer satisfaction, we prioritize the well-being of our community. Our knowledgeable team of pharmacists provides expert guidance and personalized care to ensure that you receive the best possible healthcare solutions. At Standard Pharmacy, the customer's health comes first.",
+            "on_call_days": ["Tuesday", "Saturday"],
             "contact":{
                 "phone": "698091442",
                 "address": "New Town, Motombi Street",
@@ -2456,6 +2474,9 @@
         },
         {
             "name": "Care Pharmacy",
+            "image_url": "../static/images/care.png",
+            "description": "Care Pharmacy is a trusted healthcare provider known for its commitment to delivering high-quality pharmaceutical products and personalized services. With a focus on customer well-being and satisfaction, we strive to provide accessible and affordable healthcare solutions to our community. Our dedicated team of professionals is here to guide and support you in achieving your health and wellness goals. At Care Pharmacy, we care about your health.",
+            "on_call_days": ["Wednesday", "Sunday"],
             "contact": {
                 "phone": "233332990",
                 "address": "Isokolo, Aminatou Square Junction",
@@ -2868,7 +2889,10 @@
             ]
         },
         {
-            "name": "Teodora Remedy Pharmacy",
+            "name": "Tydora Remedy Pharmacy",
+            "image_url": "../static/images/tydora.jpg",
+            "description": "Tydora Remedy Pharmacy is a trusted name in the Limbe healthcare industry, providing a wide range of high-quality pharmaceutical products and personalized services. Committed to customer satisfaction and well-being, we aim to be your reliable partner in achieving a healthier life. Our experienced and caring staff are dedicated to offering professional guidance and tailored solutions for all your healthcare needs. At Tydora Remedy Pharmacy, your health is our priority.",
+            "on_call_days": ["Monday", "Thursday"],
             "contact": {
                 "phone": "672233330",
                 "address": "New Town, West end junction",
@@ -3302,6 +3326,9 @@
         },
         {
             "name": "Rapha Pharmacy",
+            "image_url": "../static/images/rapha.jpg",
+            "description": "Rapha Pharmacy is the place to be for the people of Limbe, providing comprehensive pharmaceutical services and products. Committed to the well-being of our community, we offer personalized care and professional guidance to meet your healthcare needs. With a focus on accessibility and customer satisfaction, Rapha Pharmacy is dedicated to enhancing the health and quality of life for all our patrons. At Rapha Pharmacy, your health is our priority.",
+            "on_call_days": ["Tuesday", "Friday"],
             "contact": {
                 "phone": "233332173",
                 "address": "Gardens, Beside Limbe Centenary Stadium",

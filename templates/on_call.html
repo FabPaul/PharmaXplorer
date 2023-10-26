@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}On-Call Days{% endblock %}
+
+{% block content %}
+    <h2>Pharmacies On-Call for {{ current_day }}</h2>
+    {% for pharmacy in pharmacies_on_call %}
+        <h3>{{ pharmacy.name }}</h3>
+    {% endfor %}
+{% endblock %}
