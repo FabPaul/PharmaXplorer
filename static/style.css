@@ -76,6 +76,9 @@ main {
     margin: 0 10px;
     border-radius: 50%;
     margin-top: 40px;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
    
 }
 .logo-link {
@@ -110,12 +113,6 @@ main {
     margin-top: 20px;   
 }
 
-.button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 .h1 {
     justify-content: right;
     text-align: center;
@@ -132,22 +129,4 @@ h2 {
 h3 {
     color: black;
     font-style: italic;
-}
-
-.landing-page {
-    background-color: #f2f2f2;
-}
-
-.image-text-container {
-    display: flex;
-    align-items: center;
-}
-
-.image {
-    flex: 1;
-}
-
-.text {
-    flex: 1;
-    padding: 0 20px;
 }
