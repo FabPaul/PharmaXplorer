@@ -1,4 +1,4 @@
-# PharmaXplorer
+#PharmaXplorer
 
 PharmacXplorer us an innovative web application designed to revolutionalize the way the people of Limbe, Cameroon access pharmaceutical information. It provides a comprehensive database of medications, pharmacies and medical resources, offerinf a user-friendly platform for easy access to critical healthcare information.
 
