@@ -1,4 +1,8 @@
-/* styles for the header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -7,11 +11,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-header {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
 }
 
 nav ul {
